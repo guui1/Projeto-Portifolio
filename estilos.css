@@ -100,8 +100,37 @@ body{
     text-shadow: 1px 2px 3px black ;
 
 }
+.content h3{
+    font-family: "Bona Nova SC", serif;
+    font-size: 200%;
+    margin-bottom: 10%;
+    color: #4aefdf;
+    text-shadow: 1px 2px 3px black ;
+}
 .content p{
     font-family:"Arsenal SC", serif ;
     font-size: 20px;
     font-weight: 600;
+}
+.sep{
+    padding: 5%;
+}
+.end{
+    height: 140px;
+    border: 2px solid rgba(0, 0, 0, 0.596);
+    width: 100%;
+    background-color: #9e9d9d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.end h2{
+    color: #2a454e;
+    font-size: 25px; 
+    font-family: "Bona Nova SC", serif ;
+}
+.end p{
+    font-weight: 800;
+
 }
