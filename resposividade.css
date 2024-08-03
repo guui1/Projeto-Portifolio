@@ -1,0 +1,91 @@
+@media (max-width:1350px){
+    .main h1{
+        font-size: 80px;
+        
+    }
+    .main p{
+        font-size: 50px;
+        font-size: x-large;
+    }
+    .container img{
+        width: 450px;
+    }
+    .section-container iframe{
+        width: 500px;
+    }
+    .section-container h2{
+        font-size: 65px;
+        margin-bottom: 1px;
+    }
+    .section-container p{
+        font-size: 20px;
+    }
+    .content h2{
+        font-size: 60px;
+
+    }
+    .content p {
+        font-size: larger;
+    }
+}
+
+@media (max-width: 900px){ 
+    .container{
+        align-items: flex-start;
+        height: 400px;
+    }
+    .container-main{
+        display: none;
+        justify-content: start;
+        align-items: start;
+    }
+    .main{
+        width: 100vb;
+        align-items: start;
+        justify-content: start;
+        height: 500px;
+        padding: 0;
+        margin-top: 1px;
+        
+    }
+    .main h1{
+        text-align: center;
+        font-size: 55px;
+        margin-top: 1px;
+        margin: 0;
+        border-bottom: 2px solid green ;
+    }
+    .main p{
+        margin-top: 50px;
+        text-align: center;
+        margin-left: 0;
+    }
+    .botao-nav{
+        display: none;
+    }
+    .section-container{
+        margin-bottom: 300px;
+        display: block;
+    }
+    .section-container iframe{
+        width: 400px;
+        height: 400px
+    }
+    .section-container h2{
+        font-size: 50px;
+        margin-bottom: 1px;
+    }
+    .section-container p{
+        font-size: 20px;
+    }
+    .content h2{
+        font-size: 50px;
+
+    }
+    .content p {
+        font-size: larger;
+    }
+    .end{
+        margin-top: 350px;
+    }
+}

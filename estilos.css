@@ -9,8 +9,10 @@ body{
 }
 .botao-nav{
     padding: 4px;
-    width: 250px;
+    width: 230px;
     background-color:  gray;
+    height: 40px;
+
 }
 button {
     text-decoration: none;
@@ -49,22 +51,19 @@ li a:hover{
     background-image: linear-gradient(rgba(128, 128, 128, 0.541),rgba(140, 157, 160, 0.301) );
     color: #4aefdeb2;
 }
-.drop-dowm{
 
-}
-.drop-btn{
-
-}
 .container{
     width: 100%;
-    height: 100vh;
+    height: 90vh;
     display: flex;
     justify-content: space-around;
     flex-direction: row;
     align-items: center;
+    /* border: 1px solid black; */
 }
 
 .main{
+    /* border: 1px solid black; */
     display: flex;
     width: 40%;
     height: 90vb;
@@ -72,10 +71,11 @@ li a:hover{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    /* border: 1px solid black; */
 }
 .main h1{
     font-family: "Bona Nova SC", serif;
-    font-size: 64px;
+    font-size: 90px;
     text-align: center;
     border-left: 5px solid gray;
     margin-left: 5%;
@@ -86,28 +86,27 @@ li a:hover{
     margin-left: 8%;
     text-align: left;
     color: #2a454e;
-    font-size: 25px; 
+    font-size: 40px; 
     font-family:"Arsenal SC", sans-serif ;
 }
 .container-main{
     width: 30%;
 }
 .container-main img{
-    width: 400px;
+    width: 700px;
     justify-content: flex-end;
    
 }
 .section-container{
-    height: 100vb;
+    height: 90vb;
     display: flex;
     width: 100%;
     justify-content: space-between;
-    align-items:center ;
 }
 .section-container iframe{
-   width: 500px;
+   width: 700px;
    margin: 5%;
-   height: 500px;
+   height: 700px;
    background-color: #ccc;
 
 }
@@ -117,12 +116,12 @@ li a:hover{
     justify-items: center;
     align-items: center;
     flex-direction: column;
-    margin-right: 10%;
+    margin-right: 5%;
 }
 .iframe a {
     border: 2px solid #2a454e;
     border-radius: 7px;
-    padding: 10px;
+    padding: 20px;
     margin-bottom: 5%;
     text-decoration: none;
     color: #4aefdf;
@@ -130,7 +129,7 @@ li a:hover{
     background-color: cadetblue
 }
 .iframe a:hover{
-    padding: 12px;
+    padding: 19px;
     color: white;
     text-shadow: 2px 3px 4px black ;
 }
@@ -138,11 +137,11 @@ li a:hover{
     display: flex;
     align-items: flex-start;
     flex-direction: column;
-    margin: 10%;
+    margin: 8%;
 }
 .content h2{
     font-family: "Bona Nova SC", serif;
-    font-size: 240%;
+    font-size: 80px;
     margin-bottom: 10%;
     color: #4aefdf;
     text-shadow: 1px 2px 3px black ;
@@ -151,13 +150,13 @@ li a:hover{
 .content h3{
     font-family: "Bona Nova SC", serif;
     font-size: 200%;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
     color: #4aefdf;
     text-shadow: 1px 2px 3px black ;
 }
 .content p{
     font-family:"Arsenal SC", serif ;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 600;
 }
 .sep{
@@ -175,10 +174,10 @@ li a:hover{
 }
 .end h2{
     color: #2a454e;
-    font-size: 25px; 
+    font-size: 35px; 
     font-family: "Bona Nova SC", serif ;
 }
 .end p{
-    font-weight: 800;
-
+    font-weight: 900;
+    font-size: 20px;
 }
