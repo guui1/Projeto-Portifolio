@@ -6,12 +6,16 @@
     <meta name="description" content="Portifolio para demonstração de outros projetos criados por mim" >
     <link rel="stylesheet" href="estilos.css">
     <link rel="stylesheet" href="resposividade.css">
+    <script type="text/javascript" src="jquery.js"></script>
+    <link type="text/javascript" href="index.js">
     <title>Portifolio</title>
+    
 </head>
 <body>
-    <nav class="botao-nav">
-        <button class="drop-dowm drop-btn">+
-            <ul class="nav-oculto">
+    <!-- Botão lateral: Guia de topicos (Não acabado) -->
+    <nav class="botao-nav ">
+        <button class="drop-dowm drop-btn ev1">+
+            <ul class="nav-oculto ex1">
             <li><a href="#">Projeto Agencia-Ficticia</a></li>
             <li><a href="#">Projeto Maquiadora</a></li>
             <li><a href="#">Projeto Marcenaria</a></li>
@@ -20,12 +24,15 @@
             </ul>
         </button>
     </nav>
+    <!-- Tela de abertura principal -->
     <header class="container">
+  <!--Seçâo do conteudo escrito da tela principal-->
         <main class="main">
                 <h1>Portifolio do GuiGui</h1>
                 <p>Apresentação de projetos e site que eu mesmo criei,
                     seja seguindo um tutorial ou aplicando aprendizados de cursos e aulas.</p>
         </main>
+        <!-- Imagem principal da tela de abertura -->
         <main class="container-main">
             <div>
                 <img class="img-main" src="img/ilustracao-do-conceito-de-programacao.png"></a>
@@ -33,8 +40,8 @@
         </main>
     </header>
     
+    <!--Seçâo do conteudo escrito dos projetos-->
     <section class="section-container">
-<!--Seçâo do conteudo escrito-->
         <div class="content">
             <h2>
                 Agencia de Marketing
@@ -42,15 +49,20 @@
                 <p>Aqui esta o site feito com html e css, usando parametros como css externo, display flex entre outros, seguindo os ensinamentos do curso gratuito de desenvolvimento web, pelo tutor Dimitri, feito no dia 30/06/2024. escrito no VS code. lore
                 </p>
          </div>
+         <!-- Iframe para demonstração dos projetos -->
+          <!-- Projeto Agencia de marketing -->
         <div class="iframe">
             <!-- seção do iframe-->
             <iframe src="../Projeto-HTML_Agencia-fake/index.html"></iframe>
             <a href="../Projeto-HTML_Agencia-fake/projeto-agencia-fake/index.html">Clique aqui para visitar o site</a>
         </div>
    </section>
+   <!-- seção para divisao entre os projetos -->
         <div class="sep"></div>
+        <!-- Segundo Iframe contendo o proximo projeto -->
    <section class="section-container">
     <div class="content">
+        <!-- Projeto Maquiadora - Giovanna Alves -->
         <h2 style="margin: 0;">
             Site demonstrativo 
         </h2>
@@ -58,17 +70,17 @@
             <p>Aqui esta o site feito com html e css, usando parametros como css externo, display flex entre outros, criado como um demonstrativo do ramo da maquiagem, feito no dia 30/06/2024. escrito no VS code. 
             </p>
      </div>
-    
+     <!-- seção do iframe-->
     <div class="iframe">
-        <!-- seção do iframe-->
         <iframe src="../projeto-gigi/index.html"></iframe>
         <a href="">Clique aqui para visitar o site</a>
     </div>
    </section>
-
+<!--  Rodapé basico -->
    <footer class="end">
         <h2>Guilherme Alves</h2>
         <p>©Guui</p>
    </footer>
+   <script src="index.js"></script>
 </body>
 </html>
